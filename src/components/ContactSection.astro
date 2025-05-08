@@ -1,4 +1,55 @@
-<section id="contact" class="bg-white py-16">
-    <h2 class="text-4xl font-bold text-center">Contact</h2>
-    <p class="text-center mt-4">Contact information and form.</p>
-  </section>
+
+
+
+<section class="hero bg-base-200 min-h-screen" id="contact">
+    <div class="hero-content flex-col lg:flex-row-reverse w-full max-w-5xl mx-auto px-4 py-16">
+      
+      <!-- Texto descriptivo -->
+      <div class="text-center lg:text-left lg:max-w-md">
+        <h1 class="text-4xl font-bold mb-4">Contáctame</h1>
+        <p class="py-2">
+          ¿Tienes un proyecto en mente? ¡Escríbeme y trabajemos juntos para hacerlo realidad!
+        </p>
+        <p class="text-sm text-gray-500">
+          Responderé a la brevedad posible.
+        </p>
+      </div>
+  
+      <!-- Formulario -->
+      <div class="card bg-base-100 w-full max-w-md shadow-xl mt-8 lg:mt-0">
+        <div class="card-body">
+          <form action="#" method="POST" class="space-y-4">
+            <!-- Campo: Nombre -->
+            <div class="form-control w-full">
+              <label class="label">
+                <span class="label-text">Nombre</span>
+              </label>
+              <input type="text" placeholder="Tu nombre" class="input input-bordered w-full" required />
+            </div>
+  
+            <!-- Campo: Email -->
+            <div class="form-control w-full">
+              <label class="label">
+                <span class="label-text">Email</span>
+              </label>
+              <input type="email" placeholder="tu@email.com" class="input input-bordered w-full" required />
+            </div>
+  
+            <!-- Campo: Mensaje -->
+            <div class="form-control w-full">
+              <label class="label w-full">
+              <span class="label-text">Mensaje</span>
+              </label>
+              <textarea class="textarea textarea-bordered h-32" placeholder="Escribe tu mensaje aquí..." required></textarea>
+            </div>
+  
+            <!-- Botón Enviar -->
+            <div class="form-control mt-6">
+              <button class="btn btn-primary w-full">Enviar Mensaje</button>
+            </div>
+          </form>
+        </div>
+      </div>
+  
+    </div>
+  </section>  
