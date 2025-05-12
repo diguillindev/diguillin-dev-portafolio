@@ -14,6 +14,9 @@ permissions:
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -29,12 +32,12 @@ jobs:
       - name: Build the site
         run: npm run build
 
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: dist
+          # Evita cualquier conflicto con v2 si es necesario
+
       - name: Deploy to GitHub Pages
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          cd dist
-          echo "Creating .nojekyll file"
-          touch .nojekyll
-          echo "Deploying with gh CLI"
-          npx --no-install gh pages:deploy --dir=. --branch=gh-pages --force
+        id: deployment
+        uses: actions/deploy-pages@v1
