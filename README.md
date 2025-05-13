@@ -1,47 +1,84 @@
-# Astro Starter Kit: Minimal
+# Diguillin Dev | Portafolio Personal
 
-```sh
-npm create astro@latest -- --template minimal
-```
+🚀 Portafolio personal hecho con [Astro.js](https://astro.build ), [Tailwind CSS](https://tailwindcss.com ) y [DaisyUI](https://daisyui.com ). Diseño moderno, rápido, responsivo y listo para mostrar tu trabajo o servicios como desarrollador web.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/minimal)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/minimal/devcontainer.json)
+👉 [Ver sitio en vivo](https://diguillindev.github.io/diguillin-dev-portafolio/ )
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+---
 
-## 🚀 Project Structure
+## 🧰 Tecnologías utilizadas
 
-Inside of your Astro project, you'll see the following folders and files:
+### 🛠️ Dependencias de desarrollo
+- [Astro.js](https://astro.build ): Framework web estático ultra-rápido.
+- [Tailwind CSS](https://tailwindcss.com ): Framework CSS utilitario.
+- [DaisyUI](https://daisyui.com ): Componentes UI para Tailwind.
 
-```text
-/
-├── public/
+### 🚀 Dependencias de producción
+- Nada adicional, ¡todo es estático!
+
+### 🔄 CI/CD
+- [GitHub Actions](https://github.com/features/actions ): Para despliegue automático a GitHub Pages.
+
+---
+
+## 📦 Estructura del Proyecto
+
+diguillin-dev-portafolio/
+├── public/ # Archivos estáticos (imágenes, logo, etc.)
 ├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+│ ├── components/ # Componentes reutilizables (Header, Footer, etc.)
+│ ├── layouts/ # Layout principal (BaseLayout.astro)
+│ ├── pages/ # Páginas (index.astro)
+│ └── styles/ # Estilos globales y configuración de Tailwind
+├── astro.config.mjs # Configuración de Astro
+├── tailwind.config.cjs # Configuración de Tailwind CSS
+├── package.json
+└── README.md
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+---
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+## 🚀 Cómo ejecutar localmente
 
-Any static assets, like images, can be placed in the `public/` directory.
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/DiguillinDev/diguillin-dev-portafolio.git 
+   cd diguillin-dev-portafolio
+Instala las dependencias:
+bash
 
-## 🧞 Commands
 
-All commands are run from the root of the project, from a terminal:
+1
+npm install
+Ejecuta el servidor de desarrollo:
+bash
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
 
-## 👀 Want to learn more?
+1
+npm run dev
+Abre tu navegador en: http://localhost:4321
+📣 Cómo contribuir
+Si deseas contribuir al proyecto, sigue estos pasos:
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+Haz un fork del repositorio.
+Crea una nueva rama (git checkout -b feature/nueva-feature)
+Haz tus cambios y guárdalos (git commit -m "Agrega nueva feature")
+Sube los cambios a tu rama (git push origin feature/nueva-feature)
+Abre un Pull Request
+¡Toda ayuda es bienvenida! 😊
+
+📬 Contacto
+¿Tienes preguntas o sugerencias?
+📩 Contáctame por correo o visita mi perfil de GitHub.
+
+GitHub : https://github.com/DiguillinDev
+Sitio web : https://diguillindev.github.io/diguillin-dev-portafolio/
+
+
+⚙️ Despliegue Automático
+El sitio se despliega automáticamente mediante GitHub Actions en cada cambio realizado en la rama main.
+
+Este repositorio utiliza el workflow oficial de GitHub Pages + Astro.js.
+
+📝 Licencia
+Este proyecto está bajo la licencia MIT.
+Puedes usarlo, modificarlo y distribuirlo libremente. 🎉
