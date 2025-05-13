@@ -23,7 +23,8 @@
 
 ## 📦 Estructura del Proyecto
 
-diguillin-dev-portafolio/
+```text
+📦 diguillin-dev-portafolio/
 ├── public/                  # Archivos estáticos (imágenes, logo, etc.)
 ├── src/
 │   ├── components/          # Componentes reutilizables (Header, Footer, etc.)
@@ -34,6 +35,7 @@ diguillin-dev-portafolio/
 ├── tailwind.config.cjs      # Configuración de Tailwind CSS
 ├── package.json             # Dependencias y scripts del proyecto
 └── README.md                # Documentación del proyecto
+```
 ---
 
 ## 🚀 Cómo ejecutar localmente
