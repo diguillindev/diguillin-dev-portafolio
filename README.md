@@ -24,6 +24,7 @@
 ## 📦 Estructura del Proyecto
 
 📦 Estructura del Proyecto  
+
 diguillin-dev-portafolio/  
 ├── public/                  # Archivos estáticos (imágenes, logo, etc.)  
 ├── src/  
