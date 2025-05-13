@@ -24,16 +24,19 @@
 ## 📦 Estructura del Proyecto
 
 diguillin-dev-portafolio/
-├── public/                     # Archivos estáticos (imágenes, logo, etc.)
+├── public/ # Archivos estáticos (imágenes, logo, etc.)
 ├── src/
-│   ├── components/             # Componentes reutilizables (Header, Footer, etc.)
-│   ├── layouts/                # Layout principal (BaseLayout.astro)
-│   ├── pages/                  # Páginas del sitio (index.astro, etc.)
-│   └── styles/                 # Estilos globales y configuración de Tailwind
-├── astro.config.mjs            # Configuración de Astro
-├── tailwind.config.cjs         # Configuración de Tailwind CSS
-├── package.json                # Dependencias y scripts del proyecto
-└── README.md                   # Documentación del proyecto
+│ ├── components/ # Componentes reutilizables (Header, Footer, etc.)
+│ ├── layouts/ # Layout principal (BaseLayout.astro)
+│ ├── pages/ # Páginas del sitio (index.astro, etc.)
+│ └── styles/ # Estilos globales y configuración de Tailwind
+├── astro.config.mjs # Configuración de Astro
+├── tailwind.config.cjs # Configuración de Tailwind CSS
+├── package.json # Dependencias y scripts del proyecto
+└── README.md # Documentación del proyecto
+
+
+
 
 ---
 
